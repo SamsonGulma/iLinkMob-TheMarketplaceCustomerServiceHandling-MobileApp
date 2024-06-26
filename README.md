@@ -24,7 +24,7 @@ git clone https://github.com/SamsonGulma/iLinkMob-TheMarketplaceCustomerServiceH
 2.Navigate into the project directory:
 
 ```bash
-cd 
+cd TO WHERE EVER YOUR PROJECT, BUT IN THIS REPO. THERE IS NO PROJECT DIR.
 ```
 3.Ensure you have Flutter installed.
 
