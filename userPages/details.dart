@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:ilink/widget/widget_support.dart';
 
 class Details extends StatefulWidget {
@@ -24,7 +25,7 @@ class _DetailsState extends State<Details> {
             },
               child: Icon(Icons.arrow_back_ios_new_outlined, color: Colors.black,)),
             Image.asset(
-              'images/dellLaptop.jpg',
+              'images/furniture.jpg',
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height/2.5,
               fit: BoxFit.fill,),
@@ -36,8 +37,8 @@ class _DetailsState extends State<Details> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('Laptop', style: AppWidget.semiBoldTextFeildStyle(),),
-                  Text('SLIM DELL touch screen,', style: AppWidget.boldTextFeildStyle(),),
+                  Text('Furniture', style: AppWidget.semiBoldTextFeildStyle(),),
+                  Text('Sofa', style: AppWidget.boldTextFeildStyle(),),
                 ],
               ),
 
@@ -53,18 +54,10 @@ class _DetailsState extends State<Details> {
             ],),
 
             SizedBox(height: 10.0,),
-             Text("""
-  RYZEN 5 3450u 3.5ghz Turbo Speed 4core 8cpu 
-  Model : inspiron 3505
-  Condition: New
-  Screen :15.6 inch FHD
-  1080p.Touch screen
-  Storage : 256gb SSD & HDD slot
-  Ram : 8gb DDR4 
-  2gb Radeon  Dedicated Graphics
-  4hr.+ hours battery life
-  FHD webcam
-  HD Sound system, thin,sleek and lightweight!""",
+             Text("This Furniture is a sofa, and it is a sofa, also a sofa "
+                "This Furniture is a sofa, and it is a sofa, also a sofa "
+                "This Furniture is a sofa, and it is a sofa, also a sofa "
+                "This Furniture is a sofa, and it is a sofa, also a sofa ",
                 style: AppWidget.LightTextFeildStyle(),),
             
             SizedBox(height: 20.0,),
