@@ -1,6 +1,6 @@
 Click to see the showcase of this app inside the Issues Section.
 ```
-<a>https://github.com/SamsonGulma/iLinkMob-TheMarketplaceCustomerServiceHandling-MobileApp/issues/1#issue-2922221541</a>
+https://github.com/SamsonGulma/iLinkMob-TheMarketplaceCustomerServiceHandling-MobileApp/issues/1#issue-2922221541
 ```
 # Customer-Service-Handler-MobileApp-Using-Flutter_Dart
 Customer Service Handler Mobile Application using Dart [[Flutter]]
